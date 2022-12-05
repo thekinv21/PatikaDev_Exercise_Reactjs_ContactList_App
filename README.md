@@ -1,3 +1,7 @@
+1) This App teaching you how to use UseState , UseEffect and Props in ReactJs
+2) Using Framework Chakra Ui
+3) You can Add , Remove , Update , Contacts in your List
+4) You can Filter Users with name or phone number....
 
 <p align="center">
 
