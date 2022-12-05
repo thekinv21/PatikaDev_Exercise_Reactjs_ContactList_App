@@ -14,7 +14,7 @@ const Form = ({ addContact, mycontacts }) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  //------------ User ekle----------------
+  //-------------------Add User--------------------------
 
   const AddContact = (e) => {
     e.preventDefault();
@@ -25,7 +25,8 @@ const Form = ({ addContact, mycontacts }) => {
       alert("İnputlar boş");
     }
 
-    //----------inputlari temizle-----------
+    //--------------Clear İnput after Adding-----------------------
+
     setForm({ firstname: "", phone: "" });
   };
 
@@ -58,7 +59,7 @@ const Form = ({ addContact, mycontacts }) => {
       </FormControl>
 
       <HStack gap="20px" w="100%" mt="30px">
-        <Button colorScheme={"green"} w="100%" onClick={AddContact}>
+        <Button colorScheme={"green"} w="100%" onClick={AddContact} fontSize='14px'>
           Add Contact
         </Button>
       </HStack>
